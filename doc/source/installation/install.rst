@@ -11,7 +11,7 @@ NuGet.
 
     nuget Install-Package MassTransit
 
-However, the NuGet packages don't contain the MassTransit.RuntimeServices executable and database SQL scripts.  The RuntimeServices system routes messages to multiple subscribers via the Subscription Service.  If you plan to use the "UseSubscriptionService" feature, then you'll need to get compile that from source.
+However, the NuGet packages don't contain the MassTransit.RuntimeServices executable and database SQL scripts.  The RuntimeServices system routes messages to multiple subscribers via the Subscription Service.  If you plan to use the "UseSubscriptionService" feature, then you'll need to compile that from source.
 
 
 Then you will need to add references to
